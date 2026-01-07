@@ -29,7 +29,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if query.data == "buy":
         await query.message.reply_text(
-            "Привет, вот он 👉 @DollarWare\n"
+            "Привет, вот он 👉 @whiletruedo\n"
             "Ты можешь купить SeilWare по низкой цене"
         )
 
@@ -49,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
